@@ -662,7 +662,7 @@ public class IMController extends Handler {
                 String strcname = (String) request.getSession().getAttribute("Sessioncompany_name");
                 nickname = struname + "@" + strcname;
             } else {
-                nickname = "Guest_" + "@" + randomUserId;
+                nickname = "客户_" + "@" + randomUserId;
             }
 
             view.addObject("nickname", nickname);
