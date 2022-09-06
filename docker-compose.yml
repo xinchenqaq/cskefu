@@ -14,7 +14,7 @@ services:
       - contact-center
 
   contact-center:
-    image: ${CC_IMAGE:-chatopera/contact-center:develop}
+    image: ${CC_IMAGE:-xinchenqaq/contact-center:develop}
     restart: always
     ports:
       - "${CC_WEB_PORT:-8035}:8035"
